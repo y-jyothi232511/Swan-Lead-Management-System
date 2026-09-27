@@ -1,16 +1,112 @@
-# React + Vite
+# Swan Lead Management System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A full-stack Lead Management System built for managing customer leads, tracking follow-ups, monitoring lead status, and viewing business analytics from a centralized dashboard.
 
-Currently, two official plugins are available:
+## 🚀 Project Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+The Swan Lead Management System is a web application designed for software and digital marketing companies to manage leads efficiently.
 
-## React Compiler
+Users can securely log in, create and manage leads, search and filter records, track lead statuses, and monitor lead statistics through a dashboard.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Tech Stack
 
-## Expanding the ESLint configuration
+### Frontend
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React.js
+- Vite
+- JavaScript
+- CSS
+
+### Backend
+
+- Node.js
+- Express.js
+- JWT Authentication
+- bcryptjs
+
+### Database
+
+- MongoDB
+- MongoDB Atlas
+- Mongoose
+
+## ✨ Features
+
+### Authentication
+
+- User registration
+- User login
+- Password hashing using bcrypt
+- JWT-based authentication
+- Protected API routes
+
+### Lead Management
+
+- Create leads
+- View leads
+- Update leads
+- Delete leads
+- Track follow-up dates
+- Add notes
+- Track services interested in
+- Track lead status
+- Track created date
+
+### Lead Statuses
+
+- New
+- Contacted
+- Qualified
+- Converted
+- Lost
+
+### Dashboard
+
+- Total leads
+- New leads
+- Contacted leads
+- Qualified leads
+- Converted leads
+- Lost leads
+- Lead analytics and visualization
+
+### Search & Filtering
+
+- Search by name
+- Search by email
+- Search by phone
+- Search by company
+- Search by service
+- Filter by status
+- Filter by follow-up date
+- Pagination
+
+## 📁 Project Structure
+
+```text
+Swan-Lead-Management-System/
+│
+├── Backend/
+│   ├── models/
+│   │   ├── Lead.js
+│   │   └── user.js
+│   ├── .gitignore
+│   ├── package.json
+│   ├── package-lock.json
+│   └── server.js
+│
+├── Frontend/
+│   ├── public/
+│   ├── src/
+│   │   ├── assets/
+│   │   ├── App.css
+│   │   ├── App.jsx
+│   │   ├── index.css
+│   │   └── main.jsx
+│   ├── package.json
+│   ├── package-lock.json
+│   └── vite.config.js
+│
+├── .gitignore
+├── README.md
+└── package-lock.json
