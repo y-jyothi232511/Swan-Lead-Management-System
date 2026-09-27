@@ -105,14 +105,12 @@ Users can securely register and log in, create and manage leads, search and filt
 
 ## 📁 Project Structure
 
-```text
 Swan-Lead-Management-System/
 │
 ├── Backend/
 │   ├── models/
 │   │   ├── Lead.js
 │   │   └── User.js
-│   ├── .env
 │   ├── .gitignore
 │   ├── package.json
 │   ├── package-lock.json
@@ -132,5 +130,3 @@ Swan-Lead-Management-System/
 │
 ├── .gitignore
 └── README.md
-├── README.md
-└── package-lock.json
