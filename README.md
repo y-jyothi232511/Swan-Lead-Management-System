@@ -1,12 +1,16 @@
-# Swan Lead Management System
+# 🦢 Swan Lead Management System
 
-A full-stack Lead Management System built for managing customer leads, tracking follow-ups, monitoring lead status, and viewing business analytics from a centralized dashboard.
+A full-stack Lead Management System built for software and digital marketing companies to manage customer leads, track follow-ups, monitor lead status, and view business analytics from a centralized dashboard.
+
+---
 
 ## 🚀 Project Overview
 
-The Swan Lead Management System is a web application designed for software and digital marketing companies to manage leads efficiently.
+The Swan Lead Management System is a production-style full-stack web application designed to help businesses efficiently manage their leads.
 
-Users can securely log in, create and manage leads, search and filter records, track lead statuses, and monitor lead statistics through a dashboard.
+Users can securely register and log in, create and manage leads, search and filter lead records, track lead statuses, manage follow-up dates, and monitor lead statistics through an analytics dashboard.
+
+---
 
 ## 🛠️ Tech Stack
 
@@ -30,17 +34,21 @@ Users can securely log in, create and manage leads, search and filter records, t
 - MongoDB Atlas
 - Mongoose
 
+---
+
 ## ✨ Features
 
-### Authentication
+### 🔐 Authentication
 
 - User registration
 - User login
+- User logout
 - Password hashing using bcrypt
 - JWT-based authentication
 - Protected API routes
+- Protected dashboard
 
-### Lead Management
+### 👥 Lead Management
 
 - Create leads
 - View leads
@@ -52,7 +60,7 @@ Users can securely log in, create and manage leads, search and filter records, t
 - Track lead status
 - Track created date
 
-### Lead Statuses
+### 📊 Lead Statuses
 
 - New
 - Contacted
@@ -60,26 +68,40 @@ Users can securely log in, create and manage leads, search and filter records, t
 - Converted
 - Lost
 
-### Dashboard
+### 📈 Dashboard
 
-- Total leads
-- New leads
-- Contacted leads
-- Qualified leads
-- Converted leads
-- Lost leads
-- Lead analytics and visualization
+- Total Leads
+- New Leads
+- Contacted Leads
+- Qualified Leads
+- Converted Leads
+- Lost Leads
+- Lead analytics
+- Data visualization
 
-### Search & Filtering
+### 🔎 Search & Filtering
 
 - Search by name
 - Search by email
 - Search by phone
 - Search by company
 - Search by service
-- Filter by status
+- Filter by lead status
 - Filter by follow-up date
 - Pagination
+
+### 🎨 UI/UX
+
+- Modern dark interface
+- Black and green theme
+- Responsive layout
+- Dashboard navigation
+- Loading states
+- Error handling
+- Empty states
+- Responsive lead table
+
+---
 
 ## 📁 Project Structure
 
@@ -89,7 +111,8 @@ Swan-Lead-Management-System/
 ├── Backend/
 │   ├── models/
 │   │   ├── Lead.js
-│   │   └── user.js
+│   │   └── User.js
+│   ├── .env
 │   ├── .gitignore
 │   ├── package.json
 │   ├── package-lock.json
@@ -108,5 +131,6 @@ Swan-Lead-Management-System/
 │   └── vite.config.js
 │
 ├── .gitignore
+└── README.md
 ├── README.md
 └── package-lock.json
